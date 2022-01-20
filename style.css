@@ -1,0 +1,32 @@
+
+ ul {
+    font-size: 200%;
+    list-style: none;
+ }
+li a span {
+   display: inline-block;
+   background: url(./icon-sprite-28.jpg);
+   height: 84px;
+   width: 84px;
+}
+
+li:nth-child(odd) a span {
+   background-position: -85px -85px;
+}
+
+ li:nth-child(even) a span {
+   background-position: -420px -85px;
+ }
+
+ li:nth-child(odd) a span:hover {
+   background-position: -85px -170px;
+}
+
+li:nth-child(even) a span:hover {
+   background-position: -420px 0;
+ }
+
+ li a:hover {
+    color: teal;
+ }
+
